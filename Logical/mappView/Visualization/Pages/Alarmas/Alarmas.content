@@ -7,24 +7,24 @@
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="160" left="100" width="400" height="320" zIndex="1" text="GroupBox1">
       <Widgets />
     </Widget>
-    <Widget xsi:type="widgets.brease.TabControl" id="TabControl" top="160" left="100" width="400" height="320" zIndex="2">
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl" top="100" left="20" width="600" height="520" zIndex="2">
       <Widgets>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="130" zIndex="0" text="Lista Alarmas" textAlign="right">
           <Widgets>
-            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="10" left="0" width="380" height="270" zIndex="0">
+            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="10" left="0" width="580" height="470" zIndex="0">
               <Widgets />
             </Widget>
           </Widgets>
         </Widget>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="130" zIndex="1" text="Historico Alarmas">
           <Widgets>
-            <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory2" top="10" left="0" width="380" height="270" zIndex="0">
+            <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory2" top="10" left="0" width="580" height="470" zIndex="0">
               <Widgets />
             </Widget>
           </Widgets>
         </Widget>
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="60" left="240" width="140" height="40" zIndex="3" text="Alarmas" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="40" left="240" width="140" height="40" zIndex="3" text="Alarmas" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
   </Widgets>
 </Content>

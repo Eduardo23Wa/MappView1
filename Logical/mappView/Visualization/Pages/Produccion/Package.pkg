@@ -4,6 +4,5 @@
   <Objects>
     <Object Type="File" Description="Page description">Produccion.page</Object>
     <Object Type="File">Produccion.content</Object>
-    <Object Type="File">Navegacion.content</Object>
   </Objects>
 </Package>

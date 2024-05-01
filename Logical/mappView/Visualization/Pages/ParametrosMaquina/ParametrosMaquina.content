@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="ParametrosMaquina_Content" height="640" width="640" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.RadialGauge" id="RadialGauge1" top="40" left="40" width="280" height="280" zIndex="0" text="RadialGauge1" borderStyle="solid" />
-    <Widget xsi:type="widgets.brease.DonutChart" id="DonutChart1" top="60" left="380" zIndex="1">
+    <Widget xsi:type="widgets.brease.RadialGauge" id="RadialGauge1" top="60" left="20" width="340" height="340" zIndex="0" text="RadialGauge1" borderStyle="solid" />
+    <Widget xsi:type="widgets.brease.DonutChart" id="DonutChart1" top="260" left="380" width="240" height="240" zIndex="1">
       <Widgets>
         <Widget xsi:type="widgets.brease.DonutChartItem" id="DonutChartItem1" top="80" left="80" zIndex="0" text="Avance" backColor="rgba(255, 0, 0, 1)" style="ItemGrayBlue50" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.LinearGauge" id="LinearGauge1" top="440" left="140" zIndex="2" />
+    <Widget xsi:type="widgets.brease.LinearGauge" id="LinearGauge1" top="540" left="0" width="640" height="100" zIndex="2" />
+    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="20" left="220" width="220" height="40" zIndex="3" text="Parametros Maquina" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
   </Widgets>
 </Content>

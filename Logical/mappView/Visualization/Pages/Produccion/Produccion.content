@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="Produccion_Content" height="640" width="640" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="Produccion_Content" height="660" width="860" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.Image" id="Robertita" top="0" left="0" width="360" height="640" zIndex="0" image="Media/Robertita.jpg" />
-    <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart1" top="100" left="400" width="180" height="160" zIndex="1" backGroundGradient="linear-gradient(to right, #C33764 0%, #1D2671  51%, #C33764  100%)">
+    <Widget xsi:type="widgets.brease.Image" id="Robertita" top="-20" left="0" width="1400" height="960" zIndex="0" image="Media/Karely.gif" backColor="rgba(32, 178, 170, 1)" />
+    <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart1" top="100" left="580" width="180" height="160" zIndex="1" backGroundGradient="linear-gradient(to right, #C33764 0%, #1D2671  51%, #C33764  100%)">
       <Widgets />
     </Widget>
-    <Widget xsi:type="widgets.brease.BasicSlider" id="SliderTEmp" top="325" left="420" width="120" height="20" zIndex="2" borderWidth="2px" cornerRadius="30px" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="TempMin" top="440" left="440" height="40" zIndex="3" borderWidth="2px 12px 2px 2px" cornerRadius="30px" textAlign="center" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="TempMax" top="560" left="440" height="40" zIndex="4" borderWidth="2px 12px 2px 2px" cornerRadius="30px" textAlign="center" />
-    <Widget xsi:type="widgets.brease.Label" id="temp" top="280" left="420" width="140" height="40" zIndex="5" text="Temperatura" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" fontName="Times New Roman" fontSize="20px" bold="true" />
-    <Widget xsi:type="widgets.brease.Label" id="Tempmin" top="380" left="390" width="220" height="40" zIndex="6" multiLine="true" text="Temperatura minima" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" textAlign="left" fontName="Times New Roman" fontSize="20px" bold="true" italic="false" underline="false" />
-    <Widget xsi:type="widgets.brease.Label" id="Tempmax" top="500" left="390" width="220" height="40" zIndex="7" text="Temperatura maxima" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" fontName="Times New Roman" fontSize="20px" bold="true" />
-    <Widget xsi:type="widgets.brease.Label" id="Prod" top="20" left="400" width="140" height="40" zIndex="8" text="Produccion" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
+    <Widget xsi:type="widgets.brease.BasicSlider" id="SliderTEmp" top="325" left="600" width="120" height="20" zIndex="2" borderWidth="2px" cornerRadius="30px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="TempMin" top="440" left="620" height="40" zIndex="3" borderWidth="2px 12px 2px 2px" cornerRadius="30px" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="TempMax" top="560" left="620" height="40" zIndex="4" borderWidth="2px 12px 2px 2px" cornerRadius="30px" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Label" id="temp" top="280" left="600" width="140" height="40" zIndex="5" text="Temperatura" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" fontName="Times New Roman" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Tempmin" top="380" left="570" width="220" height="40" zIndex="6" multiLine="true" text="Temperatura minima" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" textAlign="left" fontName="Times New Roman" fontSize="20px" bold="true" italic="false" underline="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Tempmax" top="500" left="570" width="220" height="40" zIndex="7" text="Temperatura maxima" cornerRadius="50px" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" fontName="Times New Roman" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Prod" top="20" left="580" width="140" height="40" zIndex="8" text="Produccion" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)" borderStyle="hidden" textColor="rgba(240, 240, 240, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
   </Widgets>
 </Content>

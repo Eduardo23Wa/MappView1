@@ -4,6 +4,5 @@
   <Objects>
     <Object Type="File" Description="Page description">Alarmas.page</Object>
     <Object Type="File">Alarmas.content</Object>
-    <Object Type="File">Navegacion.content</Object>
   </Objects>
 </Package>
