@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Navegacion_Content" height="660" width="340" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.RadialButtonBar" id="RadialButtonBar1" top="60" left="-153" width="620" height="620" zIndex="0" buttonPadding="60" radius="130px" startAngle="0" opacity="0.8" trackColor="rgba(0, 0, 0, 1)" backColor="rgba(32, 178, 170, 1)" borderWidth="0px" borderColor="rgba(255, 0, 255, 1)" borderStyle="none">
+    <Widget xsi:type="widgets.brease.RadialButtonBar" id="RadialButtonBar1" top="160" left="0" width="320" height="320" zIndex="0" buttonPadding="60" radius="130px" startAngle="0" opacity="0.8" trackColor="rgba(0, 0, 0, 1)" backColor="rgba(255, 255, 255, 0)" borderWidth="0px" borderColor="rgba(255, 0, 255, 1)" borderStyle="none">
       <Widgets>
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="23" left="87" width="113" height="36" zIndex="0" breakWord="true" multiLine="true" pageId="ParametrosMaquina" text="Parametros De Maquina" borderWidth="2px 12px 2px 2px" cornerRadius="50px" mouseDownTextColor="rgba(0, 192, 192, 1)" fontSize="12px" fontName="Arial Unicode" />
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="160" left="233" width="113" height="36" zIndex="1" pageId="Alarmas" text="Alarmas" borderWidth="2px 12px 2px 2px" cornerRadius="50px" mouseDownTextColor="rgba(0, 192, 192, 1)" textAlign="center" fontSize="12px" fontName="Arial Unicode" />
@@ -16,6 +16,6 @@
         <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationAuto" top="80" left="210" zIndex="10" pageId="pageId1" text="NavigationButton10" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.Navigation" id="Navigation1" top="20" left="20" width="300" height="40" zIndex="1" alignment="horizontal" buttonImageAlign="right" buttonStyle="defaultSmall" ellipsis="true" multiLine="true" navRefId="nav_1" />
+    <Widget xsi:type="widgets.brease.Navigation" id="Navigation1" top="80" left="20" width="300" height="40" zIndex="1" alignment="horizontal" buttonImageAlign="right" buttonStyle="defaultSmall" ellipsis="true" multiLine="true" navRefId="nav_1" />
   </Widgets>
 </Content>

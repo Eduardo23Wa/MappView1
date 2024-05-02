@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Produccion_Content" height="660" width="860" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.Image" id="Robertita" top="-20" left="0" width="1400" height="960" zIndex="0" image="Media/Karely.gif" backColor="rgba(32, 178, 170, 1)" />
+    <Widget xsi:type="widgets.brease.Image" id="Robertita" top="0" left="0" width="380" height="680" zIndex="0" image="Media/Karely.gif" backColor="rgba(255, 255, 255, 0)" />
     <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart1" top="100" left="580" width="180" height="160" zIndex="1" backGroundGradient="linear-gradient(to right, #C33764 0%, #1D2671  51%, #C33764  100%)">
       <Widgets />
     </Widget>

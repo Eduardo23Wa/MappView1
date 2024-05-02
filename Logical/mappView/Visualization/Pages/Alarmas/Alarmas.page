@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="Alarmas" layoutRefId="layoutPrincipal" description="Alarmas">
   <Assignments>
-    <Assignment type="Content" baseContentRefId="Info_Content" areaRefId="AreaInfo" />
-    <Assignment type="Content" baseContentRefId="Alarmas_Content" areaRefId="AreaContent" />
-    <Assignment type="Content" baseContentRefId="Navegacion_Content" areaRefId="AreaNavigation" />
+    <Assignment type="Content" baseContentRefId="Info_Content" areaRefId="AreaInfo" backColor="rgba(255, 255, 255, 0)" />
+    <Assignment type="Content" baseContentRefId="Alarmas_Content" areaRefId="AreaContent" backColor="rgba(255, 255, 255, 0)" />
+    <Assignment type="Content" baseContentRefId="Navegacion_Content" areaRefId="AreaNavigation" backColor="rgba(255, 255, 255, 0)" />
+    <Assignment type="Content" baseContentRefId="Fondo_Content" areaRefId="AreaFondo" backGroundGradient="linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%)" />
   </Assignments>
 </pdef:Page>
