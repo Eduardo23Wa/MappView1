@@ -7,20 +7,22 @@
     <Page refId="Alarmas" />
     <Page refId="Configuracion" />
   </Pages>
-  <Navigations />
+  <Navigations>
+    <Navigation refId="nav_1" />
+  </Navigations>
   <BindingsSets>
     <BindingsSet refId="Produccion_Content_binding" />
   </BindingsSets>
   <EventBindingsSets />
   <Dialogs />
   <Contents>
-    <Content refId="Fondo_Content" />
     <Content refId="Navegacion_Content" />
     <Content refId="Info_Content" />
     <Content refId="Produccion_Content" />
-    <Content refId="ParametrosMaquina_Content" />
     <Content refId="Alarmas_Content" />
     <Content refId="Configuracion_Content" />
+    <Content refId="ParametrosMaquina_Content" />
+    <Content refId="Fondo_Content" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />
@@ -38,6 +40,7 @@
     <Configuration key="bootLogo" value="media/Logos/DA.png" />
     <Configuration key="activityCount" value="false" />
     <Configuration key="bootColor" value="#33cccc" />
+    <Configuration key="zoom" value="true" />
     <Gestures>
       <!--<SystemGesture1 touchPoints="2" />
 		  <SystemGesture2 touchPoints="2" />
