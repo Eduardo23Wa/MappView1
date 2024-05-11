@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="TextsPackage" PackageType="TextsPackage" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects />
+  <Objects>
+    <Object Type="File">Produccion_Content.tmx</Object>
+    <Object Type="File">Configuracion_Content.tmx</Object>
+    <Object Type="File">Alarmas.tmx</Object>
+    <Object Type="File">ParamMaq.tmx</Object>
+    <Object Type="File">Navegacion.tmx</Object>
+    <Object Type="File">Navegacion_Content1.tmx</Object>
+  </Objects>
 </Package>

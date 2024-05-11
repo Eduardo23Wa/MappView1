@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="es" />
+      <Property ID="UserFallbackLanguage" Value="en" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="es" />
+        <Property ID="TargetLanguage[2]" Value="en" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="mappView.Resources.Texts.Produccion_Content.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.Resources.Texts.Configuracion_Content.tmx" />
+      <Property ID="TargetFile[3]" Value="mappView.Resources.Texts.Alarmas.tmx" />
+      <Property ID="TargetFile[4]" Value="mappView.Resources.Texts.ParamMaq.tmx" />
+      <Property ID="TargetFile[5]" Value="mappView.Resources.Texts.Navegacion.tmx" />
+      <Property ID="TargetFile[6]" Value="mappView.Resources.Texts.Navegacion_Content1.tmx" />
+    </Group>
+  </Element>
+</Configuration>

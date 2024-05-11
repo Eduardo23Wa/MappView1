@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Config</prop>
+  </header>
+  <body>
+    <tu tuid="Sel_Lang">
+      <tuv xml:lang="es">
+        <seg>Seleccion de idioma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Select Languaje</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Sel_Date">
+      <tuv xml:lang="es">
+        <seg>Fecha y Hora</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Select Date and time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Sel_Unit">
+      <tuv xml:lang="es">
+        <seg>Seleccion de sistema de unidades</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Select Sistem Unit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conf">
+      <tuv xml:lang="es">
+        <seg>Configuracion</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

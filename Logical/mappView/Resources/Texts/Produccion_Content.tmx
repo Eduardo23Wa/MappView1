@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Prod</prop>
+  </header>
+  <body>
+    <tu tuid="Tem">
+      <tuv xml:lang="es">
+        <seg>Temperatura</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Temperature</seg>
+      </tuv>
+    </tu>
+    <tu tuid="T_Max">
+      <tuv xml:lang="es">
+        <seg>Temperatura Max</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Temperature Max</seg>
+      </tuv>
+    </tu>
+    <tu tuid="T_Min">
+      <tuv xml:lang="es">
+        <seg>Temperatura Min</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Temperature Min</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Prod">
+      <tuv xml:lang="es">
+        <seg>Producción</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Production</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

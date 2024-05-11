@@ -25,6 +25,6 @@
         </Widget>
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="40" left="360" width="140" height="40" zIndex="3" text="Alarmas" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="40" left="360" width="140" height="40" zIndex="3" text="$IAT/Alarm/Al" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
   </Widgets>
 </Content>

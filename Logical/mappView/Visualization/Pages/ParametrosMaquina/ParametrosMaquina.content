@@ -8,6 +8,6 @@
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.LinearGauge" id="LinearGauge1" top="520" left="120" width="640" height="100" zIndex="2" />
-    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="80" left="320" width="220" height="40" zIndex="3" text="Parametros Maquina" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Alarm" top="80" left="320" width="220" height="40" zIndex="3" text="$IAT/ParamMaqu/ParamMaq" borderWidth="0px" cornerRadius="20px" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%)" borderStyle="hidden" textColor="rgba(255, 255, 255, 1)" textAlign="center" opacity="1" fontName="Arial Unicode" fontSize="16px" bold="true" italic="false" underline="false" enable="false" />
   </Widgets>
 </Content>
