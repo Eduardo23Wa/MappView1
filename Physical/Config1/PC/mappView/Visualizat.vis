@@ -12,11 +12,13 @@
   </Navigations>
   <BindingsSets>
     <BindingsSet refId="Produccion_Content_binding" />
-	</BindingsSets>
+  </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Info_Content_eventbinding" />
   </EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="Param_dialog" />
+  </Dialogs>
   <Contents>
     <Content refId="Navegacion_Content" />
     <Content refId="Info_Content" />
@@ -25,6 +27,7 @@
     <Content refId="Configuracion_Content" />
     <Content refId="ParametrosMaquina_Content" />
     <Content refId="Fondo_Content" />
+    <Content refId="DialogParamContent" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

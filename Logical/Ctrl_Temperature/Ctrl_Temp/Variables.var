@@ -1,3 +1,5 @@
 VAR
 	ECTempSimModel_0 : ECTempSimModel;
+	maxTemp : REAL;
+	minTemp : REAL;
 END_VAR

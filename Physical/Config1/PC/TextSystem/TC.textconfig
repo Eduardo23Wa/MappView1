@@ -17,6 +17,7 @@
       <Property ID="TargetFile[4]" Value="mappView.Resources.Texts.ParamMaq.tmx" />
       <Property ID="TargetFile[5]" Value="mappView.Resources.Texts.Navegacion.tmx" />
       <Property ID="TargetFile[6]" Value="mappView.Resources.Texts.Navegacion_Content1.tmx" />
+      <Property ID="TargetFile[7]" Value="Alarms.AlarmCtrl.AlarmTexts.tmx" />
     </Group>
   </Element>
 </Configuration>

@@ -13,5 +13,29 @@
         <seg>Alarm</seg>
       </tuv>
     </tu>
+    <tu tuid="ID_Alarm">
+      <tuv xml:lang="es">
+        <seg>ID De Alarma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ID alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NameAlarm">
+      <tuv xml:lang="es">
+        <seg>Nombre De Alarma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DateAlarm">
+      <tuv xml:lang="es">
+        <seg>Tiempo De Alarma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm Date</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Info_Content" height="660" width="250" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.Image" id="Image1" top="-10" left="-360" width="1320" height="1140" zIndex="0" image="Media/giphy.gif" backColor="rgba(255, 255, 255, 0)" />
-    <Widget xsi:type="widgets.brease.Image" id="ImageAlarm" top="0" left="60" width="140" zIndex="1" image="Media/eStop.png" visible="false" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="100" left="-160" width="660" height="600" zIndex="0" image="Media/giphy.gif" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.Image" id="ImageAlarm" top="0" left="160" width="100" zIndex="1" image="Media/eStop.png" visible="false" />
+    <Widget xsi:type="widgets.brease.FlyOut" id="FlyOut1" top="10" left="0" width="200" height="210" zIndex="2" image="Media/SymbolLib/User/Login.svg" text="User" buttonHeight="100" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" textAlign="center" style="transparent">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Login" id="Login1" top="2" left="-7" width="200" height="90" zIndex="0" buttonStyle="transparent" labelStyle="Caption" backColor="rgba(255, 255, 255, 0)" backGroundGradient="linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)" />
+        <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="165" left="9" width="180" height="40" zIndex="1" text="Cerrar Chechion" borderStyle="solid" cornerRadius="30px" backColor="rgba(255, 255, 255, 0)" disabledBackColor="rgba(241, 241, 241, 1)" mouseDownBorderColor="rgba(255, 192, 192, 1)" />
+      </Widgets>
+    </Widget>
   </Widgets>
 </Content>

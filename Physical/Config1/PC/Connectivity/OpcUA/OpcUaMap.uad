@@ -2,7 +2,23 @@
 <?AutomationStudio FileVersion="4.9"?>
 <OpcUaSource FileVersion="8" ArVersion="B4.92">
   <Aliases>
-    <ACLAliases />
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrators" Access="0x017F" />
+        <ACE RoleName="Everyone" Access="0x005F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleName="Operador" Access="0x015F" />
+        <ACE RoleName="Administrators" Access="0x017F" />
+        <ACE RoleName="Everyone" Access="0x015F" />
+      </ACL>
+      <ACL Id="3">
+        <ACE RoleName="Operador" Access="0x017F" />
+        <ACE RoleName="Administrators" Access="0x017F" />
+        <ACE RoleName="Everyone" Access="0x017F" />
+      </ACL>
+    </ACLAliases>
     <EURangeViolationAliases />
     <EURangesAliases>
       <EURanges Id="3">
@@ -23,7 +39,7 @@
       <EngineeringUnit Id="2" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
     </EngineeringUnitAliases>
   </Aliases>
-  <DefaultView>
+  <DefaultView AclId="3">
     <Module Name="&lt;Default&gt;">
       <Task Name="Ctrl_Temp">
         <Variable Name="ECTempSimModel_0">
@@ -37,6 +53,8 @@
           <Variable Name="OutTemp" EURangesId="5" EngineeringUnitId="1" />
           <Variable Name="Internal" />
         </Variable>
+        <Variable AclId="2" AclInherit="2" Name="maxTemp" />
+        <Variable AclId="2" AclInherit="2" Name="minTemp" />
       </Task>
     </Module>
   </DefaultView>
