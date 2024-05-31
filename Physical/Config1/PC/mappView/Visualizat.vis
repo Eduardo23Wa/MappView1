@@ -15,6 +15,7 @@
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Info_Content_eventbinding" />
+    <EventBindingsSet refId="eventbinding_0" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="Param_dialog" />

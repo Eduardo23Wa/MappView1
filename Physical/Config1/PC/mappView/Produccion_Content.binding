@@ -45,8 +45,10 @@
 <Target xsi:type="brease" contentRefId="Produccion_Content" widgetRefId="SliderTEmp" attribute="value" />
 </Binding>
 
-<Binding mode="twoWay">
-<Source xsi:type="opcUa" refId="::Ctrl_Temp:maxTemp" attribute="value" />
+
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Ctrl_Temp:ECTempSimModel_0.OutTemp" attribute="value" />
 <Target xsi:type="brease" contentRefId="DialogParamContent" widgetRefId="ProgressBarDialog" attribute="value" />
 </Binding>
 </Bindings>

@@ -7,5 +7,6 @@
     <Object Type="File">Produccion_Content.binding</Object>
     <Object Type="File">Navigation.nav</Object>
     <Object Type="File">Info_Content.eventbinding</Object>
+    <Object Type="File">Proceso_Binding.eventbinding</Object>
   </Objects>
 </Package>

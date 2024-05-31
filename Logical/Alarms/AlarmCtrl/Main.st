@@ -8,6 +8,8 @@ PROGRAM _INIT
 	MpAlarmXHistory_0.MpLink     := ADR (gAlarmXHistory);
 	MpAlarmXHistory_0.DeviceName := ADR ('History');
 	
+	
+
 	 
 END_PROGRAM
 
@@ -16,6 +18,8 @@ PROGRAM _CYCLIC
 	 
 	MpAlarmXcore_0      ();
 	MpAlarmXHistory_0   ();
+	
+
 	
 END_PROGRAM
 
