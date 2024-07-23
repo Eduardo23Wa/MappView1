@@ -9,13 +9,15 @@
       <Widgets>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="130" zIndex="0" text="Lista Alarmas" textAlign="right">
           <Widgets>
-            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="10" left="0" width="800" height="470" zIndex="0" itemsPerPage="6">
+            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="10" left="0" width="800" height="410" zIndex="0" itemsPerPage="6">
               <Widgets>
                 <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" zIndex="0" columnType="name" text="$IAT/Alarm/ID_Alarm" />
                 <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" zIndex="1" text="$IAT/Alarm/NameAlarm" />
                 <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" zIndex="2" columnType="timestamp" text="$IAT/Alarm/DateAlarm" />
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="StateAlarm" zIndex="3" columnType="state" text="State" />
               </Widgets>
             </Widget>
+            <Widget xsi:type="widgets.brease.Button" id="ReconocerAlarmas" top="440" left="40" width="120" height="50" zIndex="1" multiLine="true" text="Reconocer " textAlign="center" />
           </Widgets>
         </Widget>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="130" zIndex="1" text="Historico Alarmas">

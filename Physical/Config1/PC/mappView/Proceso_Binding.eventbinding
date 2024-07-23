@@ -2,11 +2,40 @@
 <EventBindingSet id="eventbinding_0" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Bindings>
     <EventBinding id="EventBinding_2">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Produccion_Content" widgetRefId="PushButtonReset" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OKCancel" message="Deseas realizar un RESET??" header="" icon="Warning" style="default" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result = 4">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::Ctrl_Temp:ECTempSimModel_0.InHeat">
+                  <Method xsi:type="opcUa.NodeAction.SetValueNumber" value="0" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_3">
       <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Produccion_Content" widgetRefId="PushButtonProceso" event="Click" />
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Param_dialog" autoRaise="disabled" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="widgets.brease.BasicSlider.Event" contentRefId="Produccion_Content" widgetRefId="SliderTEmp" event="Click" />
+      <EventHandler condition="origin">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OK" message="Sacale leña prro!" header="" icon="Exclamation" />
           </Target>
         </Action>
       </EventHandler>

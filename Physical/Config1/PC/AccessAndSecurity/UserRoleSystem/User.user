@@ -3,21 +3,21 @@
 <Configuration>
   <Element ID="Electrico" Type="User">
     <Property ID="UserID" Value="1" />
-    <Property ID="Password" Value="Azkd/oh61+fm8Vlbdzdo5YgS5h91VF/CQukHcnBeO3XAi0eupLo=" />
+    <Property ID="Password" Value="4xCwRXSrxj1RXfqnegq5uRWqbVccn020jT2dMuwAg/IDI7yYO6I=" Description="321" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Administrators" />
     </Group>
   </Element>
   <Element ID="Cabernicola" Type="User">
     <Property ID="UserID" Value="2" />
-    <Property ID="Password" Value="Fsv3aoTFLE8nENqbg/VeeafpDRR9L0ujvY4UjCUDBcJv1Ogo32I=" />
+    <Property ID="Password" Value="rwQh3+sE3tvjoTJQ5I20LdNJ2Huh6eLSPhlf7TvcibmVqotVpD4=" Description="123" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Operador" />
     </Group>
   </Element>
   <Element ID="Abuelo" Type="User">
     <Property ID="UserID" Value="3" />
-    <Property ID="Password" Value="AyMycag/w5jkG1bfXTovNB1tNnpBsUo4VUdpgNhhYzNKaetss/I=" />
+    <Property ID="Password" Value="fFss5tve0+m5oiKywGLBdEpmPZC4m7SSHjCy8WNEoFf7Yh90rPM=" Description="123" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Operador" />
     </Group>

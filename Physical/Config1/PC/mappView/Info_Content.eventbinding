@@ -18,5 +18,15 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Alarmas_Content" widgetRefId="ReconocerAlarmas" event="DoubleClick" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.AlarmList.Action" contentRefId="Alarmas_Content" widgetRefId="AlarmList1">
+            <Method xsi:type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

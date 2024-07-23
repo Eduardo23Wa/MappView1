@@ -7,15 +7,15 @@
   <body>
     <tu tuid="TemperaturaBaja">
       <tuv xml:lang="es">
-        <seg>Temperatura mínima excedida!</seg>
+        <seg>Temperatura mínima excedida! Metele leña prro :0 {&amp;CurrentTemp|4.2f}</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Minimum temperature exceded!</seg>
+        <seg>Minimum temperature exceded! {&amp;CurrentTemp|4.2f}</seg>
       </tuv>
     </tu>
     <tu tuid="TemperaturaAlta">
       <tuv xml:lang="es">
-        <seg>Temperatura máxima excedida!</seg>
+        <seg>Temperatura máxima excedida! Quitale leña prro :0 {&amp;CurrentTemp|4.2f}</seg>
       </tuv>
       <tuv xml:lang="fr">
         <seg>Bonjour tout le monde!</seg>
@@ -24,7 +24,7 @@
         <seg>Servus Welt!</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Maximum temperature exceded!</seg>
+        <seg>Maximum temperature exceded! {&amp;CurrentTemp|4.2f}</seg>
       </tuv>
     </tu>
   </body>

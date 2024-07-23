@@ -43,9 +43,29 @@
 <Binding mode="twoWay">
 <Source xsi:type="opcUa" refId="::Ctrl_Temp:ECTempSimModel_0.InHeat" attribute="value" />
 <Target xsi:type="brease" contentRefId="Produccion_Content" widgetRefId="SliderTEmp" attribute="value" />
-</Binding>
+		</Binding>
+		
 
+		
+		
+		
+		
+		
+<Binding mode="oneWay">
+<Source xsi:type="expression" refId="resultadoEvaluacionCalentamiento" attribute="result" />
+<Target xsi:type="brease"  contentRefId="Produccion_Content" widgetRefId="Label01" attribute="visible" />
+</Binding> 																										
 
+		
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Ctrl_Temp:ECTempSimModel_0.InHeat" attribute="value" />
+<Target xsi:type="expression" refId="resultadoEvaluacionCalentamiento" attribute="nivelCalentamiento" />
+</Binding> 				
+		
+		
+		
+		
+		
 
 <Binding mode="oneWay">
 <Source xsi:type="opcUa" refId="::Ctrl_Temp:ECTempSimModel_0.OutTemp" attribute="value" />

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionTypeSet id="expressiontype_Calentamiento" xmlns="http://www.br-automation.com/iat2016/expressionType/v1">
+	<ExpressionTypes> 
+		<ExpressionType name="calentamientoExcesivo" datatype="BOOL">   
+			<Operands>
+				<Operand name="nivelCalentamiento" datatype="ANY_REAL" />  
+			</Operands>   
+			<Operation>
+				nivelCalentamiento &gt; 50
+			</Operation>
+		</ExpressionType>
+	</ExpressionTypes>
+</ExpressionTypeSet>

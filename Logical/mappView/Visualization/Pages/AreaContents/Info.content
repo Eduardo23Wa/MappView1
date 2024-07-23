@@ -9,5 +9,6 @@
         <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="165" left="9" width="180" height="40" zIndex="1" text="Cerrar Chechion" borderStyle="solid" cornerRadius="30px" backColor="rgba(255, 255, 255, 0)" disabledBackColor="rgba(241, 241, 241, 1)" mouseDownBorderColor="rgba(255, 192, 192, 1)" />
       </Widgets>
     </Widget>
+    <Widget xsi:type="widgets.brease.LoginInfo" id="LoginInfo1" top="120" left="160" width="80" height="10" zIndex="3" fontSize="10px" />
   </Widgets>
 </Content>
